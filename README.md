@@ -92,7 +92,7 @@ If you use this code, please cite:
 ```bibtex
 @misc{mfvi_model_agnostic_2026,
   title={MFVI: Model-Agnostic Mean-Field Variational Inference for PyTorch},
-  author={Your Name},
+  author={Dwyer Deighan},
   year={2026},
   note={Code release. Paper forthcoming.}
 }
