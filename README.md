@@ -12,9 +12,9 @@ Transforms deterministic parameters ( $\theta$ ) into variational parameters:
 
 * $( \theta \rightarrow (\mu, \sigma) )$
 * Sampling via reparameterization:
-  \[
+  $$
   \theta = \mu + \sigma \odot \epsilon,\quad \epsilon \sim \mathcal{N}(0, I)
-  \]
+  $$
 
 Optimizes the standard ELBO:
 
