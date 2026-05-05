@@ -8,13 +8,13 @@ Designed to work out-of-the-box with **arbitrary architectures**, including larg
 
 ## Key idea
 
-Transforms deterministic parameters ( \theta ) into variational parameters:
+Transforms deterministic parameters ( $\theta$ ) into variational parameters:
 
-* ( \theta \rightarrow (\mu, \sigma) )
+* $( \theta \rightarrow (\mu, \sigma) )$
 * Sampling via reparameterization:
-  [
+  \[
   \theta = \mu + \sigma \odot \epsilon,\quad \epsilon \sim \mathcal{N}(0, I)
-  ]
+  \]
 
 Optimizes the standard ELBO:
 
