@@ -90,11 +90,15 @@ Supports:
 If you use this code, please cite:
 
 ```bibtex
-@misc{mfvi_model_agnostic_2026,
-  title={MFVI: Model-Agnostic Mean-Field Variational Inference for PyTorch},
-  author={Dwyer Deighan},
-  year={2026},
-  note={Code release. Paper forthcoming.}
+@software{deighan_2026_20044677,
+  author       = {Deighan, Dwyer},
+  title        = {Model Agnostic MFVI BNN},
+  month        = may,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {0.1},
+  doi          = {10.5281/zenodo.20044677},
+  url          = {https://doi.org/10.5281/zenodo.20044677},
 }
 ```
 
